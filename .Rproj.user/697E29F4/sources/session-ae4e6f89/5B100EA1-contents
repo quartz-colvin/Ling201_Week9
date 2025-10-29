@@ -1,0 +1,82 @@
+---
+title: "LING 201: *Introduction to Linguistic Theory*"
+subtitle: "Section 02"
+author: "Instructor: Quartz Colvin"
+institute: "Rutgers University"
+date: "Fall, 2025"
+output:
+  html_document:
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+</style>
+
+This is an R Markdown document serving as the directory. You could find links to the slides of the recitation sessions for the course *Introduction to Lingusitic Theories* (Fall, 2025).
+
+<br><br>
+
+#### **Week 01**: Introduction (Sept 05)
+<br>
+
+#### **Week 02**: [Morphology I](https://quartz-colvin.github.io/Ling201_Week2/#1) (Sep 12)
+<br>
+
+#### **Week 03**: [Morphology II](https://quartz-colvin.github.io/Ling201_Week3/#1) (Sep 19)
+[Homework 1](https://rutgers.instructure.com/courses/357158/files?preview=51797433)
+<br><br>
+
+#### **Week 04**: [Syntax I](https://quartz-colvin.github.io/Ling201_Week4/#1) (Sep 26)
+[Homework 2](https://rutgers.instructure.com/courses/357158/files/52000198?wrap=1)
+<br><br>
+
+#### **Week 05**: [Syntax II](https://quartz-colvin.github.io/Ling201_Week5/#1) (Oct 03)
+[Homework 3](https://rutgers.instructure.com/courses/357158/files/52218449?wrap=1)
+<br><br>
+
+#### **Week 06**: Review & Exam (Oct 10)
+<br>
+
+#### **Week 07**: [Semantics I](https://quartz-colvin.github.io/Ling201_Week7/) (Oct 17)
+<br>
+
+#### **Week 08**: [Semantics II](https://quartz-colvin.github.io/Ling201_Week8/) (Oct 24)
+[Homework 4](https://rutgers.instructure.com/courses/357158/files/52898205?wrap=1)
+<br><br>
+
+#### **Week 09**: [Pragmatics](https://quartz-colvin.github.io/Ling201_Week9/) (Oct 31)
+[Homework 5](https://rutgers.instructure.com/courses/357158/files/53063368?wrap=1)
+<br><br>
+
+#### **Week 10**: Phonetics I (Nov 07)
+<br>
+
+#### **Week 11**: Phonetics II (Nov 14)
+Homework 6
+<br><br>
+
+#### **Week 12**: Phonology I (Nov 21)
+Homework 7
+<br><br>
+
+#### **Week 13**: Phonology II (Nov 26)
+Wednesday recitation class, Thanksgiving adjustment
+<br><br>
+
+#### **Week 14**: Phonology III (Dec 05)
+<br>
+
+#### **Final Exam**: Friday, Dec. 19, 12:00 – 3:00 pm, ABE, Room 1180
+
