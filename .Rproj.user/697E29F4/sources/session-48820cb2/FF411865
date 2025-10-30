@@ -1,26 +1,26 @@
 {
-    "id": "B298A657",
-    "path": "C:/Users/court/OneDrive/Desktop/Ling201_Week9/index.Rmd",
-    "project_path": "index.Rmd",
+    "id": "FF411865",
+    "path": "C:/Users/court/OneDrive/Desktop/Ling201_Week9/answers.Rmd",
+    "project_path": "answers.Rmd",
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1761696701888.0,
+    "created": 1761850570832.0,
     "source_on_save": true,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "700,0",
-        "scrollLine": "694"
+        "cursorPosition": "158,214",
+        "scrollLine": "153"
     },
     "folds": "",
-    "lastKnownWriteTime": 1761776317,
+    "lastKnownWriteTime": 1761854217,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1761776317286,
+    "last_content_update": 1761854217715,
     "read_only": false,
     "read_only_alternatives": []
 }

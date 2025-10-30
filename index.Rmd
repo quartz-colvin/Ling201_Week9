@@ -294,7 +294,7 @@ For example:
 
 Imagine someone flouted the Maxim of Quality by saying the following when there's a hurricane raging outside:
 
-- Lovely weather we're having!
+- "Lovely weather we're having!"
 
 What are they implicating?
 
@@ -316,19 +316,12 @@ class: middle, center
 
 --
 
-.pull-left[
+
 **Enrico:** What languages do you speak?
 
 **Maria:** I speak English, Spanish, and Mandarin.
-]
 
-.pull-right[
-**Maria:** How's the marathon training going?
-
-**Enrico:** I can run ten miles without stopping.
-]
-
-These utterances would still be literally true if Maria could also speak Arabic, or if Enrico could run an entire marathon without stopping. But they'd sound weird 
+This utterance would still be literally true if Maria could also speak Arabic, but it'd sound weird 
 
 - Why is that?
 
