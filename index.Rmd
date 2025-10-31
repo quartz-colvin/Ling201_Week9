@@ -321,9 +321,20 @@ class: middle, center
 
 **Maria:** I speak English, Spanish, and Mandarin.
 
+
+.pull-left[
 This utterance would still be literally true if Maria could also speak Arabic, but it'd sound weird 
 
 - Why is that?
+
+]
+
+.pull-right[
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/wasp.jpg")
+```
+]
+
 
 ---
 
@@ -341,15 +352,24 @@ What is the son implicating?
 
 --
 
+.pull-left[
+
 - **Rafa:** What do you do for a living? 
 
 - **Ed:** I work.
 
---
 
 Why is Ed's response awkward? 
 
 What might Ed be implicating by flouting the Maxim of Quantity?
+]
+
+.pull-right[
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/room.jpg")
+```
+]
+
 
 ---
 
@@ -423,6 +443,7 @@ class: middle, center
 
 # Maxim of Manner
 
+.pull-left[
 - **avoid obscurity of expression**
 
   - don't be hard to understand 
@@ -436,8 +457,14 @@ class: middle, center
 - **be orderly**
 
   - present information in an order that makes sense
-  
 
+]
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/nothing.jpg")
+```
+]
 
 
 
@@ -592,39 +619,40 @@ For example, *"Anna speaks English, Korean, and Farsi. And she doesn't speak any
 
 # Canceling and reinforcing literal meaning 
 
-Canceling and reinforcing are important tests for literal vs. implied meaning, because you can generally cancel and reinforce implicatures, but not literal meaning.
+.pull-left[
+Canceling and reinforcing are important **tests** for literal **vs.** implied meaning, because you can generally cancel and reinforce implicatures, but **not** literal meaning.
 
---
+If you try to cancel or reinforce **literal meaning**, you'll end up with a statement that's either **contradictory** or **repetitive**!
+]
 
-Suppose I had the sentence: *"Anna speaks English, Korean, and Farsi."*
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/pragmatics.jpeg")
+```
+]
 
-- The implicature is she only speaks three languages, but the literal meaning is she speaks English, she speaks Korean, and she speaks Farsi.
-
---
-
-- Suppose I tried to cancel the literal meaning she speaks Korean:
-
-  - *Anna speaks English, Korean, and Farsi,* ***but*** *she doesn't speak Korean.* 
-
---
-
-  - **...Contradiction!**
-  
 ---
 
-# Canceling and reinforcing literal meaning
+# Cancelling and reinforcing literal meaning
+
+**cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning
+
+
+- **literal meaning** *cannot* be cancelled or reinforced
+
+- but **implicatures** can be
+
+***"Merlin speaks English, Kazakh and Mandarin" ***
+
+- ...*"but he does not speak Kazakh"*
+
+  **cancelling = contradiction**
   
-- Suppose I tried to reinforce the literal meaning *"she speaks Korean"*
+- ...*"and he speaks Kazakh"*
 
---
-
-  - *Anna speaks English, Korean, and Farsi;* ***in fact,*** *she speaks Korean.*
+  **reinforcing = redundancy**
   
-  - **...Redundant!**
 
---
-
-If you try to cancel or reinforce literal meaning, you'll end up with a statement that's either contradictory or unnecessarily repetitive!
 
 ---
 
@@ -640,18 +668,27 @@ For each sentence, two additional statements are given – one is part of the se
 
 --
 
-1. *I drove home at noon.*
+.pull-left[
+
+1. I drove home at noon.
   
-  A: I drove a car.
+  - **A:** I drove a car.
   
-  B: I drove home during the day.
+  - **B:** I drove home during the day.
+
+2. I called 10 times and nobody picked up.
+  
+  - **A:** I called at least 5 times.
+  
+  - **B:** I was using a phone.
+]
 
 
-2. *I called 10 times and nobody picked up.*
-  
-  A: I called at least 5 times.
-  
-  B: I was using a phone.
+.pull-right[
+```{r, out.height="90%", out.width="90%", echo=FALSE}
+knitr::include_graphics("./images/milk.jpeg")
+```
+]
 
 ---
 
@@ -697,4 +734,6 @@ following the cooperative principle.
 ### Homework 
 
 - HW5 is due **Nov 2**!
+
+- HW6 will be published this week and will be due **Nov 9**!
 

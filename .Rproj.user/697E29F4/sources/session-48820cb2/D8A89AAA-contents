@@ -1,0 +1,538 @@
+---
+title: "Week 8: Semantics II"
+subtitle: "Recitation for LING 201:02"
+author: "Quartz Colvin (they/them)"
+institute: "Rutgers University"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      bibliography:  bibliography.bib
+    keep_tex: true
+header-includes:
+- \usepackage{qtree}
+- \newenvironment{dummy}{}{}
+documentclass: ../includes/tex
+---
+
+
+
+
+
+class: middle, center
+
+# Set theory (formal review)
+
+---
+
+
+
+
+
+# Set theory (formal review)
+
+## Set: a collection of items
+
+- order doesn't matter 
+
+- items can be repeated, but they don't "count" as separate items 
+  
+  - {a,e,i,o,u} = {a,a,e,e,i,o,o,u}
+
+**Member**
+
+- an item in a set is also called a member of that set
+
+---
+
+# Set theory (formal review)
+
+## List vs. predicate notation
+
+- **List notation:** specifies a set by listing its members between {brackets}
+
+  - *R* = { Gouda, Soup, Falafel, Beef, Butter, Sesame }
+  
+  
+- **Predicate notation:** defines what is in the set without listing everything 
+
+  - *R* = { *x* | *x* is a rodent }
+
+  - "*R* equals the set of elements *x*, such that *x* is a rodent" 
+  
+  - normal words: "the set of all rodents"
+  
+  - "such that" ( | )
+  
+
+---
+
+# Set theory (formal review)
+
+## Set relations
+
+**subset (⊆):** 
+
+- *A* is a subset of *B* if every element of *A* is also an element of *B*
+
+**proper subset (⊂):** 
+
+- *A* is a proper subset of *B* if *A* is a subset of *B* and they are not identical
+
+**identity (=):** 
+
+- two sets are identical/equal if they have exactly the same elements
+
+---
+
+# Set theory (formal review)
+
+## Set operations
+
+**union (∪)**
+
+- produces a new set which contains all elements that belong to both sets (including elements in both sets)
+
+
+**intersection (∩)**
+
+- produces a new set that only contains all elements that belong to BOTH sets
+
+
+---
+
+# Set theory (formal review)
+
+## Set operations
+
+**difference (-)** 
+
+- the difference of *A* and *B* is a new set which contains all elements that belong to *A*, but NOT *B*
+
+
+**complement (')**
+
+- produces a new set which contains all elements in the relevant universe that are NOT in the set
+
+
+
+---
+
+# Set theory (formal review)
+
+## Cardinality: the number of elements in a set 
+
+- **singleton set:** a set with cardinality = 1
+  
+- **null set/empty set:** a set with cardinality = 0 
+
+  - {} = Ø "empty set"
+  
+
+### Other notational things
+
+- when talking about the  *meaning* of a word, and not its structure, use [[double brackets]]
+
+
+
+
+
+---
+
+class: middle, center
+
+# Set theory: back to language !
+
+--
+
+## Lexical semantics
+
+
+
+
+
+---
+
+# Set theory: back to language !
+
+## How parts of speech are defined
+
+**Proper Nouns**
+
+- [[Gible]] (*Gible is an element*)
+
+**Common Nouns**
+
+- [[rodent]] = { *x* | *x* is a rodent}
+
+**Adjectives**
+
+- [[happy]] = { *x* | *x* is happy }
+
+**Verbs**
+
+- [[meow]] = { *x* | *x* meows }
+
+---
+
+
+
+
+
+
+
+
+# Set theory: back to language !
+
+**Define the reference of nouns, adjectives, and verbs in terms of sets**
+
+*Answers are in* ***red***.
+
+
+1. fast 
+
+  - **[[fast]] = {x | x is fast}**
+
+2. scream
+
+  - **[[scream]] = {x | x screams}**
+
+3. baby 
+
+  - **[[baby]] = {x | x is a baby}**
+
+4. write 
+
+  - **[[write]] = {x | x writes}**
+  
+---
+
+# Set theory: back to language !
+
+**Define the reference of nouns, adjectives, and verbs in terms of sets**
+
+*Answers are in* ***red***.
+
+5. fluffy 
+
+  - **[[fluffy]] = {x | x is fluffy}**
+
+6. play 
+
+  - **[[play]] = {x | x plays}**
+
+7. loud
+
+  - **[[loud]] = {x | x is loud}**
+
+8. random
+
+  - **[[random]] = {x | x is random}**
+
+---
+
+class: middle, center
+
+# Set theory: back to language !
+
+--
+
+## Compositional semantics
+
+
+---
+
+# Set theory: back to language !
+
+## Sentence types (Name subjects)
+
+.pull-left[
+**"name is NOUN"** 
+
+- [[name]] ∈ [[NOUN]]
+
+- "Gible is a Pokemon" 
+
+  - = [[Gible]] ∈  [[Pokemon]] 
+
+**"name is ADJ"** 
+
+- [[name]] ∈ [[ADJ]]
+
+- "Gible is fat" 
+
+  - = [[Gible]]  ∈ [[fat]]
+]
+
+
+.pull-right[
+**"name is VERB"**
+
+- [[name]] ∈ [[VERB]]
+
+- "Gible is running" 
+
+  - = [[Gible]]  ∈ [[run]]
+]
+
+---
+
+# Set theory: back to language !
+
+## Sentence types (NOUN subjects)
+
+.pull-left[
+**"NOUNs are NOUNs"** 
+
+- [[NOUN]] ⊆ [[NOUN]]
+
+- "Hamsters are rodents" 
+
+  - = [[hamster]] ⊆ [[rodent]]
+
+**"NOUNs are ADJ"**
+
+- [[NOUN]] ⊆ [[ADJ]]
+
+- "Hamsters are small"
+
+  - = [[hamster]] ⊆ [[small]]
+]
+
+.pull-right[
+**"NOUNs are VERB"**
+
+- [[NOUN]] ⊆ [[VERB]]
+
+- "Rats squeak" 
+
+  - = [[rat]] ⊆ [[squeak]]
+]
+
+---
+
+# Set theory: back to language !
+
+## Complex sentences
+
+**"NAME is ADJ NOUN"**
+
+- "Gible is a tabby cat."
+
+- [[Gible]] ∈ [[tabby]] ∩ [[cat]]
+
+**"ADJ NOUNs are ADJ"**
+
+- "Small rodents are cute"
+
+- [[small]] ∩ [[rodent]] ⊆ [[cute]]
+
+---
+
+# Set theory: back to language !
+
+**Translate sentences into set theory expressions.** (answers are in **red**)
+
+
+1. Butter is a fast rat. **[[Butter]] ∈ [[fast]] ∩ [[rat]]**
+
+2. Fable and Gible are young cats. **[[F&B]] ∈ [[young]] ∩ [[cat]]**
+
+3. Beef and Butter are curly-haired rats. **[[B&B]] ∈ [[curly]] ∩ [[rat]]**
+
+4. Rats are ticklish. **[[rats]] ⊆ [[ticklish]]**
+
+5. Linguistics is fun. **[[linguistics]] ∈ [[fun]]**
+
+6. Keng is not Chinese. **[[Keng]] ∉ [[chinese]]**
+
+7. Fish swim. **[[fish]] ⊆ [[swim]]**
+
+8. Big dogs are friendly. **[[dog]] ∩ [[big]] ⊆ [[friendly]]**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+class: middle, center
+
+# More practice !!! 
+
+--
+
+## Mario universe
+
+---
+
+# Practice with sets 
+
+### List and predicate notation
+
+**Define the following sets using both list notation and predicate notation.**
+
+.pull-left[
+  a. *M*, the set of characters with mustaches
+  
+  b. *P*, the set of characters who are/wear pink
+  
+  c. *C*, the set of characters with crowns 
+  
+  d. *G*, the set of characters who are ghosts
+]
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/mario_characters.png")
+```
+]
+
+---
+
+# Practice with sets 
+
+List and predicate notation (answers in **red**)
+
+a. *M*, the set of characters with mustaches
+
+  - List: ***M*** **= {Mario, Luigi, Wario, Waluigi}**
+  
+  - Predicate: ***M*** **= {x | x has a mustache}**
+
+b. *P*, the set of characters who are/wear pink
+
+  - List: ***P*** **= {Peach, Birdo, Toadette}**
+  
+  - Predicate: ***P*** **= {x | x wears/is pink}**
+
+---
+
+# Practice with sets 
+
+List and predicate notation (answers in **red**)
+
+c. *C*, the set of characters with crowns
+
+  - List: ***C*** **= {Peach, Daisy, Boo, Piranha}**
+  
+  - Predicate: ***C*** **= {x | x wears a crown}**
+
+d. G, the set of characters who are ghosts
+
+  - List: ***G*** **= {Boo}**
+
+  - Predicate: ***G*** **= {x | x is a ghost}**
+
+
+---
+
+# Practice with sets 
+
+**True or False? Why?** (answers in **red**)
+
+.pull-left[
+a. Mario ∈ *M* 
+
+b. Peach ∉ *C* 
+
+c. | *C* | = 3 
+
+d. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo} 
+
+e. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}
+] 
+
+.pull-right[
+```{r, out.height="100%", out.width="100%", echo=FALSE}
+knitr::include_graphics("./images/mario_characters.png")
+```
+]
+
+---
+# Practice with sets 
+
+**True or False?** (answers in **red**)
+
+a. Mario ∈ *M* **True**
+
+b. Peach ∉ *C* **False**
+
+c. | *C* | = 3 
+
+  - **False, since the cardinality of the set we defined is 4**
+
+d. {Daisy, Birdo, Luigi} = {Luigi, Daisy, Birdo} **True**
+
+e. | { x | x has a name that starts with 'W' } | = {Wario, Waluigi}
+] 
+
+  - **False, because this says cardinality of a set is equal to a set of Wario and Waluigi. Cardinality should equal a number.**
+
+
+
+
+---
+
+# Practice with sets 
+
+Are any of the sets defined in question 1 singletons? Which one(s)? (answer in **red**)
+
+**Yes!** ***G*** **is a singleton set.**
+
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/mario_characters.png")
+```
+
+
+
+
+
+
+---
+
+class: middle, center
+
+# Congrats! You lived through semantics!
+
+```{r, out.height="60%", out.width="60%", echo=FALSE}
+knitr::include_graphics("./images/you_lived.jpg")
+```
+
+## (this is as far as we got in class)
+
+---
+
+# Coming up 
+
+### Reading 
+
+- read the semantics reading **Fromkin Ch7**, if you haven't yet!
+
+- read the pragmatics reading **Griffiths & Cummins Ch8** for next Wednesday.
+
+### Homework 
+
+- HW4 is due **OCT 26**!
+
+
+

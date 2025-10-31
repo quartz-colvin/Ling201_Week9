@@ -1,0 +1,454 @@
+---
+title: "**Pragmatics**"
+author: "Merlin Balkhash"
+institute: "Department of Linguistics, Rutgers University"
+date: "2025/10/31 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    includes:
+      after_body: [nav.html, header.html]
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+## **Previously on 201**
+<br>
+.pull-left[
+<br><br>
+<img src="../pic/1031/pragmatic.jpg" width="95%"> <br><br>
+]
+.pull-right[
+**Pragmatics** is the study of how **context** contributes to meaning or it is the study of <span style="color:green"><b>implied meaning</b></span><br><br>
+
+**presuppositions**<br><br> 
+- a type of <span style="color:green"><b>implied</b></span> meaning
+- background information that is taken for granted or in the **common ground** for an utterance to make sense<br><br> 
+
+**conversational implicatures**<br><br> 
+- another type of <span style="color:green"><b>implied</b></span> meaning
+- meaning arises from our understanding of **how people behave** in conversation
+]
+  
+---
+## How do conversations work?
+<br>
+.pull-left[
+- Philosopher **Paul Grice** studied how people behave when they're having a conversation <br><br>
+- <u>Participants in a conversation</u> (**interlocutors**) tend to collaborate and follow certain rules: <br><br>
+  - **NOT** say things that are **irrelevant**<br>
+  – <span style="color:green">*How are you today?*</span><br>
+  – <span style="color:blue">*false*.</span><br><br>
+  - **NOT** say things they believe to be **false**<br>
+  – <span style="color:green">*Do you know where the truck is?*</span><br>
+  – <span style="color:blue">*On the top of my head*.</span><br><br>
+  - **NOT** say **more** or **less** than they need to<br>
+  – <span style="color:green">*Do you fancy a cuppa tea or coffee?*</span><br>
+  – <span style="color:blue">*Yes*.</span>
+]
+.pull-right[
+<img src="../pic/1031/grice.png" width="95%"> <br><br>
+*Paul Grice* (1913-1988)
+]
+
+---
+## **Cooperative Principle (Grice)**
+<br><br>
+.pull-left[<br><br><img src="../pic/1031/example.png" width="95%">]
+.pull-right[
+- We tend to behave in similar ways whenever we're collaborating on a **common task** with a **common goal** with other people<br><br>
+- Imagine Merlin is baking a cake with his mom:<br><br>
+ - When she tells him the next step is to stir the butter, what would he do?
+ - When she asks him to hand her two eggs, what would he do?<br><br>
+- It is the same when we have a conversation, we tend not to say **irrelevant** things or give **more** or **less** information than is required ]
+<br>
+### participants in a conversation tend to say what's **appropriate** for the situation and goals of the conversation
+
+---
+## **Grice's Maxims of Conversation**
+<br><br>
+.pull-left[
+<img src="../pic/1031/long.jpg" width="85%">
+]
+.pull-right[
+- **maxim of quality**: Be truthful!
+  - Don't say what you believe to be false
+  - Don't say what you don't have evidence for
+- **maxim of quantity**: Be informative!
+  - Don't say more than you need to
+  - Don't say less than you need to
+- **maxim of relevance (relation)**: Be relevant!
+  - Don't say irrelevant things
+- **maxim of manner**: Be clear!
+  - Don't be obscure
+  - Don't be ambiguous
+  - Don't be too wordy
+  - Provide information **in a sensible order**
+]
+<br><br>
+Although they're worded like commands, the maxims are intended to describe how people **tend** to behave or are **assumed** to behave, not how they **ought to** behave
+
+---
+## provide information in a **sensible** order
+<br><br>
+.pull-left[
+<b>What was reported in the news</b>: <br><br>
+1. Arthur entered the jewelry store with a bag.
+2. The clerk screamed.
+3. The alarm started ringing.
+4. Arthur ran out onto the street.
+5. The police caught him outside.<br><br>
+
+<b>What actually happened</b>: <br><br>
+1. Arthur entered the jewelry store with a bag.
+2. The alarm started ringing.
+3. The clerk screamed.
+4. The police caught him outside.
+5. Arthur ran out onto the street.
+]
+
+.pull-right[
+<br>
+<img src="../pic/1031/nothing.jpg" width="95%">
+]
+
+---
+## sometimes we **SEEM TO** break the maxims
+<br><br>
+.pull-left[
+- We generally assume interlocutors are following the **Cooperative Principle** and **conversational maxims**<br><br>
+- Yet, sometimes it **seems** we break the maxims:
+  - speaker **A**: <span style="color:green">*Do you want to go out tonight?*</span><br>
+  - speaker **B**: <span style="color:blue">*I have an exam in the morning*.</span><br><br>
+- B said something unrelated to A's topic:
+  - violation of **Maxim of Relevance**<br><br>
+- B did not answer A's question:
+  - violation of **Maxim of Quantity**<br><br>
+- What if we assume B is in fact being cooperative and following Grice's maxims?
+  - *I can't go out, because I have an exam*.
+]
+.pull-right[
+<img src="../pic/1031/successful.png" width="80%"> <br><br>
+**conversational implicature**: <u>implied meaning</u> inferred from assuming speakers are following the **Cooperative Principle** and **maxims**
+]
+
+---
+## **Maxim of Quality** <span style="color:green"><b>(be truthful)</b></span>
+<br>
+.pull-left[<br><br><img src="../pic/1031/wasp.jpg" width="95%">]
+.pull-right[
+<br><br>
+- do **not** say what you believe to be **false**
+  - not everything is a lie in a conversation<br><br>
+- do **not** say that for which you **lack adequate evidence**<br><br>
+  - "adequate evidence" depends on the situation
+  - a doctor would be held to a **higher standard of evidence** than a regular person on a disease outcome<br><br>
+
+]
+
+---
+## **Maxim of Quality** <span style="color:green"><b>(be truthful)</b></span>
+<br>
+.pull-left[<br><br><img src="../pic/1031/wasp.jpg" width="95%">]
+.pull-right[
+- when someone tells us something, we infer the information is **true** and **reliable** generally<br><br>
+  - Sandy: *We need someone to make some sort of cake for the picnic*.
+  - Sasha: *I can make my family's favorite chocolate cake*.<br><br>
+- if we assume Sasha followed the **maxim of quality**, there are following <span style="color:green"><b>implicatures</b></span>:<br><br>
+  - Sasha is being **truthful**: she actually knows how to make the cake.
+  - Sasha has **evidence**: she has succeeded in making the cake in the past.<br><br>
+- Were any of these things literally said? **Nope!** They're just <span style="color:green"><b>implicatures</b></span>!
+
+]
+
+---
+## **violating** and **flouting** conversational maxims
+<br><br>
+.pull-left[
+- We **DO** have cases where people <span style="color:green"><b>violate</b></span> or <span style="color:green"><b>ignore</b></span> the **maxims** <br><br>
+- **lying** and **claiming without evidence** would be <span style="color:green"><b>violating</b></span> **maxim of quality <br><br>
+- sometimes, **flouting** a maxim is done to convey additional message for sarcastic or comedic effect <br><br>
+  - – <span style="color:orange">*My TA gave me 59 as the final grade intentionally just to fail me*!</b></span> <br>
+  – <span style="color:blue">*What a lovely and responsible TA he is!*</b></span><br><br>
+- What is the second speaker **implicating**?
+]
+.pull-right[
+<img src="../pic/1031/room.jpg" width="90%">
+]
+
+---
+## **Maxim of Quantity** <span style="color:green"><b>(be informative)</b></span>
+<br><br>
+.pull-left[
+- be as **informative** as is required <br><br>
+- do not be<br>
+<span style="color:green"><b>over</b></span>**informative** or <span style="color:blue"><b>under</b></span>**informative** <br><br>
+- this maxim calls for an **appropriate** amount of information<br><br>
+  - – Arthur: <span style="color:green">*What languages do you speak?*</span> <br>
+  –  Merlin: <span style="color:blue">*I speak English, Kazakh, and Mandarin*.</span><br><br>
+- if Merlin also speaks Russian and German <br><br>
+  - is the utterance still true?
+  - does the utterance feel weird?
+]
+.pull-right[
+<br>
+<img src="../pic/1031/tea.jpg" width="90%">
+]
+
+---
+## **Maxim of Quantity** <span style="color:green"><b>(be informative)</b></span>
+<br><br>
+.pull-left[
+- be as **informative** as is required <br><br>
+- do not be<br>
+<span style="color:green"><b>over</b></span>**informative** or <span style="color:blue"><b>under</b></span>**informative** <br><br>
+- this maxim calls for an **appropriate** amount of information<br><br>
+  - – Arthur: <span style="color:green">*What languages do you speak?*</span><br>
+  –  Merlin: <span style="color:blue">*I speak English, Kazakh, and Mandarin*.</span><br><br>
+- if Merlin also speaks Russian and German <br><br>
+  - is the utterance still true?
+  - does the utterance feel weird?
+]
+.pull-right[
+<br>
+<img src="../pic/1031/tea.jpg" width="90%">
+<br><br>
+**yes**, the utterance is still true according to an **entailment** inference;
+<br><br>
+YET, it is weird in terms of being **informative**
+]
+
+---
+## **Maxim of Quantity** <span style="color:green"><b>(be informative)</b></span>
+.pull-left[
+<img src="../pic/1031/moose.jpg" width="90%">
+]
+.pull-right[
+<br><br>
+- – Judge: <span style="color:green">*Mr. Lachinskaya, have you pleaded guilty to all of the charges listed before this court?*</span><br>
+– Defendant: <span style="color:blue">*I admit to the first one, Your Honor*.</span><br><br>
+  - What is the defendant **implicating**? <br><br>
+- – Arthur: <span style="color:green">*What do you do for a living*</span><br>
+– Merlin: <span style="color:blue">*I work*.</span><br><br>
+  - Is Merlin's response **awkward**?
+  - What might Merlin be implicating by **flouting** the **maxim of quantity**? 
+]
+
+---
+## **Maxim of Relevance** <span style="color:green"><b>(be relevant)</b></span>
+<br><br>
+.pull-left[
+<br>
+<img src="../pic/1031/crash.jpg" width="90%">
+]
+.pull-right[
+- Be **RELEVANT**!!!<br><br>
+- it is generally assumed that people will say things **relevant to the current topic** of conversation<br><br>
+- we **CAN** change the topic without violating this **maxim**, as long as we signal that to our interlocutors:<br><br>
+  - – Arthur: <span style="color:green">*How was the movie?*</span><br>
+  – Merlin: <span style="color:blue">*Actually, there's something I wanted to talk to you about*.</span><br><br>
+- Merlin is not being relevant, but he signaled his desire to change the topic with "**actually**"
+]
+
+---
+## **Maxim of Relevance** <span style="color:green"><b>(be relevant)</b></span>
+<br><br>
+.pull-left[
+<br>
+<img src="../pic/1031/crash.jpg" width="90%">
+<br><br>
+<i>We often rely on implied meanings like implicatures because it would be **rude** or **inappropriate** or even just overly **pedantic** to say everything literally</i>
+]
+.pull-right[
+- assuming that people are being **relevant** helps us make sens of people's utterances <br><br>
+- – Arthur: <span style="color:green">*Is Lancelot dating anyone these days?*</span><br>
+– Merlin: <span style="color:blue">*Actually, he goes to London every weekend*.</span><br><br>
+  - if we say Merlin (<span style="color:grey">~~as always~~</span>) make senses (is being **relevant**), what is he implicating? <br><br>
+- a professor writes in the recomm letter:<br><br>
+  - <span style="color:orange">*Merlin has good handwriting and dresses neatly?*</span><br><br>
+  - Is it relevant? What is the implicature?
+]
+
+  
+---
+## **Maxim of Manner** <span style="color:green"><b>(be clear)</b></span>
+<br><br>
+.pull-left[
+- Avoid **obscurity** of expression (Don't be hard to understand.) <br><br>
+- Avoid **ambiguity**<br><br>
+- Be **brief**. (Don't be too wordy.)<br><br>
+- Be **orderly**. (Present information in an order that makes sense.)<br><br>
+
+  - <span style="color:green">*Arthur took the medication and had an allergic reaction*.</span>
+  - <span style="color:blue">*Arthur had an allergic reaction and took the medication*.</span><br><br>
+- what does each sentence implicate about the relationship between *medication* and *allergies*?
+]
+.pull-right[
+<img src="../pic/1031/volume.jpg" width="90%">
+]
+
+---
+## **Practice on Maxims**
+<br>
+Identify the **conversational implicatures** in the following dialogues;<br>
+Identify the **maxims** that lead to each implicature.
+<br><br>
+.pull-left[
+1. Merlin: <span style="color:green">Did you mow the grass and wash the car like I told you?</span> <br>
+Arthur: <span style="color:blue">I mowed the grass.</span> <br><br>
+
+2. Merlin: <span style="color:green">Did Morgana make a doctor's appointment?</span> <br>
+Arthur: <span style="color:blue">Their line was busy.</span> <br><br>
+
+3. Merlin: <span style="color:green">When will you finish your work?</span> <br>
+Arthur: <span style="color:blue">I have band practice tonight.</span> <br><br>
+
+4. Merlin: <span style="color:green">Where's your car?</span> <br>
+Arthur: <span style="color:blue">Aliens took it while I was asleep.</span>
+]
+.pull-right[
+<img src="../pic/1031/husband.jpg" width="90%">
+]
+
+---
+## **Cancelling and Reinforcing Implicatures**
+.pull-left[
+<br><br>
+<img src="../pic/1031/doctor.jpeg" width="90%">
+]
+.pull-right[<br>
+- implicatures can be **cancelled** and **reinforced**, but literal meaning cannot.<br><br>
+- What do the following utterances implicate: <br><br>
+  - – <span style="color:green">*What languages does Anna speak?*</span> <br>
+  – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span><br>
+  - <b><i>implicature</i></b>: <span style="color:white">*Anna speaks only these three languages*.</span><br><br>
+  - <span style="color:orange">*Ian ate a cake and was happy*.</span><br>
+  - <b><i>implicature</i></b>: <span style="color:white">*Ian ate a cake and that made him happy*.</span><br><br>
+  - – <span style="color:green">*Does Sue have any siblings?*</span> <br>
+  – <span style="color:blue">*Sue has a brother*.</span><br>
+  - <b><i>implicature</i></b>: <span style="color:white">*Sue has only one brother*.</span>
+]
+---
+## **Cancelling and Reinforcing Implicatures**
+.pull-left[
+<br><br>
+<img src="../pic/1031/doctor.jpeg" width="90%">
+]
+.pull-right[<br>
+- implicatures can be **cancelled** and **reinforced**, but literal meaning cannot.<br><br>
+- What do the following utterances implicate: <br><br>
+  - – <span style="color:green">*What languages does Anna speak?*</span> <br>
+  – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span><br>
+  - <b><i>implicature</i></b>: *Anna speaks only these three languages*.<br><br>
+  - <span style="color:orange">*Ian ate a cake and was happy*.</span><br>
+  - <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*.<br><br>
+  - – <span style="color:green">*Does Sue have any siblings?*</span> <br>
+  – <span style="color:blue">*Sue has a brother*.</span><br>
+  - <b><i>implicature</i></b>: *Sue has only one brother*.
+]
+
+---
+## **Cancelling Implicatures**
+<br>
+- What if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **In fact, she also speaks Greek**</i>.<br><br>
+
+- Implicatures can be **cancelled** or **defeated**: we add extra information to the statement that
+**contradicts** the <span style="color:green"><b>implicature</b></span> and makes it go away <br><br>
+
+--
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:orange">*In fact, she also speaks Greek*.</span>
+  - <b><i>implicature</i></b>: ~~*Anna speaks only these three languages*~~.<br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:orange">*In fact, he ate the cake because he was happy*.</span>
+  - <b><i>implicature</i></b>: ~~*Ian ate a cake and that made him happy*~~.<br><br>
+- – <span style="color:green">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*.</span> <span style="color:orange">*In fact, she has two brothers*.</span>
+  - <b><i>implicature</i></b>: ~~*Sue has only one brother*~~.
+  
+---
+## **Reinforcing Implicatures**
+<br>
+- What if we say the following sentence: <br><br>
+<span style="color:white">aaaaaa</span><i>Anna speaks English, Korean, and Farsi. **And she doesn't speak any others**</i>.<br><br>
+
+- Implicatures can be **reinforced** as well: we add extra information to the statement that
+**further supports** the <span style="color:green"><b>implicature</b></span> and makes it firmer <br><br>
+
+--
+
+- – <span style="color:blue">*Anna speaks English, Korean, and Farsi*.</span> <span style="color:green">*And she doesn't speak any others*.</span>
+  - <b><i>implicature</i></b>: *Anna speaks only these three languages*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:blue">*Ian ate a cake and was happy*.</span> <span style="color:green">*It was the cake that made him happy*.</span>
+  - <b><i>implicature</i></b>: *Ian ate a cake and that made him happy*. <span style="color:green"><b>✔</b></span><br><br>
+- – <span style="color:red">*Does Sue have any siblings?*.</span><br>
+– <span style="color:blue">*Sue has a brother*,</span> <span style="color:green">*and only one brother*.</span>
+  - <b><i>implicature</i></b>: *Sue has only one brother*. <span style="color:green"><b>✔</b></span>
+  
+---
+## literal meaning **CANNOT** be cancelled or reinforced
+<br>
+.pull-left[
+- **cancelling** and **reinforcing** are important tests for literal **vs.** implied meaning <br><br>
+  - <span style="color:green"><b>literal meaning</b></span> **CANNOT** be cancelled or reinforced<br><br>
+  - but <span style="color:green"><b>implicatures</b></span> **CAN** be <br><br>
+- <span style="color:blue">*Merlin speaks English, Kazakh, and Mandarin*.</span><br><br>
+  - <span style="color:green">*but he does not speak Kazakh*.</span><br>
+  **cancelling → contradiction**<br><br>
+  - <span style="color:orange">*and he speaks Kazakh*.</span><br>
+  **reinforcing → redundancy**
+]
+.pull-right[
+<br><br>
+<img src="../pic/1031/pragmatics.jpeg" width="90%">
+]
+
+---
+## **Practice on cancelling and reinforcing**
+<br>
+For each sentence, two additional statements are given – one is part of the sentence's literal meaning, one is an implicature. Try to **reinforce/cancel** each statement to test whether it is **literal** or an **implicature**.<br><br>
+.pull-left[
+1. **I drove home at noon**.<br>
+A: I drove a car.<br>
+B: I drove home during the day.<br><br>
+2. **I called 10 times and nobody picked up**.<br>
+A: I called at least 5 times.<br>
+B: I was using a phone.
+]
+.pull-right[
+
+<img src="../pic/1031/milk.jpeg" width="90%">
+]
+
+---
+## Summary
+<br>
+- **Cooperative Principle**: people in a conversation tend to cooperate by following certain rules<br><br>
+- **conversational maxims**: quality, quantity, relevance, manner<br><br>
+- **conversational implicatures**: implied meanings that arise from the assumption that speakers are
+following the cooperative principle<br><br>
+  - this is sometimes because people's words implicate things **beyond what they literally say**
+  - it's sometimes because people deliberately **flout** the maxims for ironic or comedic effect
+  - implied meaning is used as a way to avoid saying uncomfortable things or to avoid the effort of speaking<br><br>
+- That's it for **Pragmatics** – the study of implied meaning and how context contributes to meaning – if
+you'd like to learn more, consider taking a Pragmatics class!
+
+<img src="../pic/1031/cat1.png" width="24%">
+<img src="../pic/1031/cat2.png" width="24%">
+<img src="../pic/1031/cat3.png" width="24%">
+<img src="../pic/1031/cat4.png" width="24%">
+
+---
+class: center, middle
+**Homework V** is due this Sunday (**Nov 2nd**)<br><br>
+**Homework VI** will be published this week which is due next Sunday (**Nov 9th**)<br><br>
+**reading materials** before Wednesday class<br>
+Phonetics in O'Grady et al.'s *Contemprary Linguistics: An Introduction*<br><br>
+<img src="../pic/1031/fine.jpeg" width="55%">
+<br><br>
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+

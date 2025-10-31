@@ -1,26 +1,26 @@
 {
-    "id": "5B100EA1",
-    "path": "C:/Users/court/OneDrive/Desktop/Ling201_2025/Ling201_2025/index.Rmd",
+    "id": "237307CC",
+    "path": "C:/Users/court/AppData/Local/Microsoft/Windows/INetCache/IE/VWBZ2JCD/index[1].Rmd",
     "project_path": null,
     "type": "r_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1761776634488.0,
+    "created": 1761912960858.0,
     "source_on_save": true,
-    "relative_order": 2,
+    "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "61,0",
-        "scrollLine": "55"
+        "cursorPosition": "123,30",
+        "scrollLine": "109"
     },
     "folds": "",
-    "lastKnownWriteTime": 1761776722,
+    "lastKnownWriteTime": 1761912958,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1761776722136,
+    "last_content_update": 1761912958,
     "read_only": false,
     "read_only_alternatives": []
 }
