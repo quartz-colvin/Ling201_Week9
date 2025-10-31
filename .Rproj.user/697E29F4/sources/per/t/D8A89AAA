@@ -1,26 +1,26 @@
 {
-    "id": "237307CC",
-    "path": "C:/Users/court/AppData/Local/Microsoft/Windows/INetCache/IE/VWBZ2JCD/index[1].Rmd",
+    "id": "D8A89AAA",
+    "path": "C:/Users/court/OneDrive/Desktop/Ling201_Week8/index.Rmd",
     "project_path": null,
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "312983932",
     "contents": "",
     "dirty": false,
-    "created": 1761912960858.0,
-    "source_on_save": true,
+    "created": 1761913296689.0,
+    "source_on_save": false,
     "relative_order": 4,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "123,30",
-        "scrollLine": "109"
+        "cursorPosition": "503,3",
+        "scrollLine": "489"
     },
     "folds": "",
-    "lastKnownWriteTime": 1761912958,
+    "lastKnownWriteTime": 1761584697,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1761912958,
+    "last_content_update": 1761584697,
     "read_only": false,
     "read_only_alternatives": []
 }
